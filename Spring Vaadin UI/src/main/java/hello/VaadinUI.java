@@ -38,7 +38,7 @@ public class VaadinUI extends UI {
 	protected void init(VaadinRequest request) {
 		// build layout
 		HorizontalLayout actions = new HorizontalLayout(filter, addNewBtn);
-		VerticalLayout mainLayout = new VerticalLayout(filter, grid);
+		VerticalLayout mainLayout = new VerticalLayout(actions, grid, editor);
 		setContent(mainLayout);
 		
 		// Configure layouts and components
