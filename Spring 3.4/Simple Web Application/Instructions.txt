@@ -1,0 +1,12 @@
+Run the application:
+Gradle - ./gradlew bootRun
+Maven - ./mvnw spring-boot:run
+
+Test the application: 
+Gradle - ./gradlew Test
+
+Call the service:
+$ curl http://localhost:8080
+
+Check app health:
+$ curl http://localhost:8080/actuator/health
